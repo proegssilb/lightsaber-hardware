@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Maxim Integrated MAX98357AETE+T
+#
+DEF MAX98357AETE+T U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "MAX98357AETE+T" 0 300 50 H V L CNN 
+F2 "Maxim_Integrated-T1633-4-0-V-*" 0 400 50 H I L CNN 
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf" 0 500 50 H I L CNN 
+F4 "No" 0 600 50 H I L CNN "automotive"
+F5 "IC" 0 700 50 H I L CNN "category"
+F6 "Integrated Circuits (ICs)" 0 800 50 H I L CNN "device class L1"
+F7 "Linear ICs" 0 900 50 H I L CNN "device class L2"
+F8 "Amplifiers - Audio" 0 1000 50 H I L CNN "device class L3"
+F9 "IC AMP CLASS D MONO 3.2W 16TQFN" 0 1100 50 H I L CNN "digikey description"
+F10 "MAX98357AETE+TCT-ND" 0 1200 50 H I L CNN "digikey part number"
+F11 "https://pdfserv.maximintegrated.com/land_patterns/90-0031.PDF" 0 1300 50 H I L CNN "footprint url"
+F12 "0.8mm" 0 1400 50 H I L CNN "height"
+F13 "QFN50P300X300X75-16" 0 1500 50 H I L CNN "ipc land pattern name"
+F14 "Yes" 0 1600 50 H I L CNN "lead free"
+F15 "f761d93c558e3979" 0 1700 50 H I L CNN "library id"
+F16 "Maxim Integrated" 0 1800 50 H I L CNN "manufacturer"
+F17 "+150°C" 0 1900 50 H I L CNN "max junction temp"
+F18 "5.5V" 0 2000 50 H I L CNN "max supply voltage"
+F19 "2.5V" 0 2100 50 H I L CNN "min supply voltage"
+F20 "700-MAX98357AETE+T" 0 2200 50 H I L CNN "mouser part number"
+F21 "2.4-2.75mA" 0 2300 50 H I L CNN "nominal supply current"
+F22 "1" 0 2400 50 H I L CNN "number of channels"
+F23 "TQFN16" 0 2500 50 H I L CNN "package"
+F24 "3.2W @ 4Ω" 0 2600 50 H I L CNN "power at speaker r"
+F25 "Yes" 0 2700 50 H I L CNN "rohs"
+F26 "0mm" 0 2800 50 H I L CNN "standoff height"
+F27 "+85°C" 0 2900 50 H I L CNN "temperature range high"
+F28 "-40°C" 0 3000 50 H I L CNN "temperature range low"
+F29 "15dB" 0 3100 50 H I L CNN "voltage gain"
+DRAW
+X VDD 7 100 0 100 R 40 40 1 1 W 
+X VDD 8 100 -100 100 R 40 40 1 1 W 
+X ~SD_MODE~ 4 100 -300 100 R 40 40 1 1 I 
+X BCLK 16 100 -500 100 R 40 40 1 1 I C
+X DIN 1 100 -800 100 R 40 40 1 1 I 
+X EP 17 1700 -800 100 L 40 40 1 1 P 
+X GAIN_SLOT 2 100 -1000 100 R 40 40 1 1 P 
+X LRCLK 14 100 -600 100 R 40 40 1 1 I C
+X OUTN 10 1700 -100 100 L 40 40 1 1 P 
+X OUTP 9 1700 0 100 L 40 40 1 1 P 
+X NC 5 1700 -300 100 L 40 40 1 1 P 
+X NC 6 1700 -400 100 L 40 40 1 1 P 
+X NC 12 1700 -500 100 L 40 40 1 1 P 
+X NC 13 1700 -600 100 L 40 40 1 1 P 
+X GND 3 1700 -900 100 L 40 40 1 1 W 
+X GND 11 1700 -1000 100 L 40 40 1 1 W 
+X GND 15 1700 -1100 100 L 40 40 1 1 W 
+S 200 100 1600 -1200 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
