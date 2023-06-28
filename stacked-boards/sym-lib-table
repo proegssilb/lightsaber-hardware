@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "imports-new")(type "KiCad")(uri "${KIPRJMOD}/library/imports.kicad_sym")(options "")(descr ""))
+  (lib (name "imports-legacy")(type "Legacy")(uri "${KIPRJMOD}/library/imports.lib")(options "")(descr ""))
+  (lib (name "stacked-boards-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/stacked-boards-eagle-import.kicad_sym")(options "")(descr ""))
+)
