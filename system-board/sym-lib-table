@@ -3,4 +3,5 @@
   (lib (name "SCHA4B0419")(type "KiCad")(uri "${KIPRJMOD}/library/SCHA4B0419/SCHA4B0419.kicad_sym")(options "")(descr ""))
   (lib (name "TF-115")(type "KiCad")(uri "${KIPRJMOD}/library/TF-115/TF-115.kicad_sym")(options "")(descr ""))
   (lib (name "Max98357A-sym")(type "Legacy")(uri "${KIPRJMOD}/library/MAX98357A/eec.lib")(options "")(descr ""))
+  (lib (name "imports")(type "KiCad")(uri "${KIPRJMOD}/library/imports.kicad_sym")(options "")(descr ""))
 )
