@@ -3609,7 +3609,7 @@
     (property "Reference" "D1" (at 271.78 105.3339 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "WS2812B" (at 271.78 107.8739 0)
+    (property "Value" "WS2812B-2020" (at 271.78 107.8739 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Imports:WS2812B-2020" (at 261.62 116.84 0)
