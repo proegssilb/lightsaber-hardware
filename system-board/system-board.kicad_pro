@@ -60,26 +60,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        "clearance|71694000|103284000|150a3a09-99f7-4333-bfac-d3a0856cd9ee|80998725-25fc-48af-9a8c-82e6dce9cdbf",
-        "clearance|76842500|101785000|e63ac026-25a5-43c7-a6cf-7bfe5f12cf02|2f203eda-e0a7-4376-b34d-30405d04c284",
-        "clearance|78467000|101084500|23c5be67-cde4-47b8-8c71-6ea010f86c20|5b8322c9-2991-4032-8917-afb61532bf5b",
-        "clearance|78666500|102135000|a745cc88-b146-418d-857d-05ce4e05ce5e|16bac915-4d28-4ce4-8331-ffa956ec294f",
-        "clearance|84633763|102212460|ce123de2-6f0e-4c81-aae9-b1d0ce32a0d5|7b4f2c99-56be-4b47-924b-9be36d550a40",
-        "clearance|86548227|103884450|a725f0c0-f11f-4b33-be31-73360ac16776|1dae3d8c-3a7e-434a-b400-ed6a71c60429",
-        "clearance|95930000|102830000|f6cef6af-3caa-491a-9f88-7d3f5ab898db|97d9def1-a22f-4aa0-9ab4-cab47a75ff18",
-        "clearance|95930000|103230000|a9c72ac5-d7b6-45d2-869a-9417ea399a2e|f6cef6af-3caa-491a-9f88-7d3f5ab898db",
-        "clearance|96280000|102690000|97d9def1-a22f-4aa0-9ab4-cab47a75ff18|36249584-9372-4914-949f-ddd4347d848a",
-        "clearance|96280000|103090000|f6cef6af-3caa-491a-9f88-7d3f5ab898db|36249584-9372-4914-949f-ddd4347d848a",
-        "clearance|96280000|103490000|a9c72ac5-d7b6-45d2-869a-9417ea399a2e|36249584-9372-4914-949f-ddd4347d848a",
-        "clearance|96280000|103630000|eb6e7e3e-77c9-4157-8734-b4595f26cccb|36249584-9372-4914-949f-ddd4347d848a",
-        "clearance|96525000|103585000|6b781a63-04d1-4b1d-9d8d-6082a929638c|7798a8ca-c24b-4b9f-ba3d-5e06034bf9fb",
-        "clearance|96980000|102690000|0f304b0d-8a81-4276-a1ea-f662bff4d23b|27948f7d-3acc-4f43-853b-b1c3654c96a2",
-        "clearance|96980000|102830000|27948f7d-3acc-4f43-853b-b1c3654c96a2|36249584-9372-4914-949f-ddd4347d848a",
-        "clearance|96980000|103090000|27948f7d-3acc-4f43-853b-b1c3654c96a2|f89be6c8-2662-442c-935f-4f04b196e903",
-        "clearance|96980000|103230000|f89be6c8-2662-442c-935f-4f04b196e903|36249584-9372-4914-949f-ddd4347d848a",
-        "clearance|96980000|103880000|9fbc68bb-3294-4a68-b706-4bfd5363aeda|36249584-9372-4914-949f-ddd4347d848a"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -135,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.19999999999999998,
         "min_connection": 0.15,
         "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.25,
@@ -445,7 +426,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
