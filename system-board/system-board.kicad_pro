@@ -61,17 +61,14 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|109610000|95631440|d90d8803-144b-4572-b883-65b98b93dcf2|4cbd7084-03e1-47db-aebc-5070d8bff101",
-        "clearance|110260000|97455440|c1f48f12-8d99-4a77-ad40-91382fa2bf9a|3fbd54bb-dcb9-416e-9f51-260b820f5e6d",
-        "clearance|110810500|95680940|8a88f519-5676-4609-b0df-2dbbb376af4e|92bbb5aa-96ad-4f25-9755-aff218875ab5",
-        "clearance|110850000|95560000|d907710f-c81c-4385-b251-c76f9116c920|ab8aa5a8-6b66-4bde-a1d1-4624092a5336",
-        "clearance|111852460|103395203|a4a6098a-b154-4923-9371-1a43270bd087|b42a512c-d09c-438b-a95d-8c791f24de26",
-        "clearance|113524450|105309667|6667f006-1c06-498b-9d8c-f5a0d1a0520d|370beb91-1ad8-47e6-97e5-21002c60ddd5",
-        "clearance|81611000|91827031|087d7109-e73c-4f39-8a10-042bae131316|97d294a4-3caa-4ee3-b50e-27f59ede1aad",
-        "copper_edge_clearance|82800000|91270000|bcf98257-58bb-40b9-88bb-96dd58bffb16|5955eac0-6dfe-482e-9077-86757421d5e1",
-        "copper_edge_clearance|84920000|91270000|bcf98257-58bb-40b9-88bb-96dd58bffb16|697c4148-a05e-46e3-8638-3484b9020e44",
-        "copper_edge_clearance|87725001|108445000|bcf98257-58bb-40b9-88bb-96dd58bffb16|e59c489c-80a9-4387-8335-c8c7552ef465",
-        "copper_edge_clearance|91824999|108445000|bcf98257-58bb-40b9-88bb-96dd58bffb16|af6974d8-3885-485c-a77c-8f2f8e8abb47"
+        "clearance|84633763|102212460|170d1923-a516-449b-a7df-c141800e874d|b63687d2-8f69-4c51-9f11-6c500ad8fa89",
+        "clearance|86548227|103884450|61ccceb7-8319-4db6-9aa2-9b63ed398282|109840c1-bf10-4038-a02c-b82e102bb76c",
+        "clearance|87454982|101881744|51e0bfac-696b-4e3f-af2d-57a49e3215de|dd6f18da-295f-43d0-b4ce-2a33b65f6378",
+        "clearance|87454982|99681744|bb1e0372-03fa-4299-a90e-4e81fd5faff1|98227552-4a41-4589-8849-7a1f1848be10",
+        "clearance|89679982|101906744|5dfb09c4-63e3-42b7-bae4-9bd942bce67d|c30e1c81-b31b-4110-a64e-a937703beed5",
+        "clearance|89704982|99681744|654e4230-ae3f-4282-afe1-fb9b05f9c11a|943aa0a1-9694-4cd9-97fd-00a18e6194e4",
+        "copper_edge_clearance|67225000|105460000|e78ad78a-5a09-42ad-9cf5-c4559502cf06|f93d9e24-86b9-4f8e-aa1b-7ed9067c626f",
+        "copper_edge_clearance|67225000|96160000|e78ad78a-5a09-42ad-9cf5-c4559502cf06|c4ca9af4-4f1b-472d-8ef6-dce4dad0a374"
       ],
       "meta": {
         "version": 2
@@ -131,7 +128,7 @@
         "min_clearance": 0.15,
         "min_connection": 0.15,
         "min_copper_edge_clearance": 0.19999999999999998,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.19999999999999998,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -449,8 +446,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.65,
-        "via_drill": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -465,14 +462,14 @@
         "name": "High-Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 16, 27)",
-        "track_width": 1.8,
+        "track_width": 1.4,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 12
       },
       {
         "bus_width": 16,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.58,
@@ -483,8 +480,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(200, 109, 23)",
         "track_width": 0.2,
-        "via_diameter": 0.65,
-        "via_drill": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 8
       }
     ],
@@ -608,6 +605,10 @@
     [
       "6dfa3454-3420-46f1-8956-247d92060c23",
       "USB Connector"
+    ],
+    [
+      "e0110071-fc39-47bc-8c5f-9cd2f242a140",
+      "i2c_devices"
     ]
   ],
   "text_variables": {}

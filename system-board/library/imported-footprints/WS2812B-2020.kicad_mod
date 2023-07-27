@@ -96,4 +96,9 @@
   (pad "2" smd rect (at 1.06 -0.6) (size 0.98 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 312b48c9-2ccf-46c8-b539-c2629d579cd9))
   (pad "3" smd rect (at -1.06 -0.6) (size 0.98 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 61c489ac-e77c-4e49-8c5a-2413c1e335ea))
   (pad "4" smd rect (at -1.06 0.5975) (size 0.98 0.805) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 82dfc2eb-2369-48e4-bab8-4e471f2ab1bf))
+  (model "${KIPRJMOD}/library/3d-models/Worldsemi_-_WS2812B-2020.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
